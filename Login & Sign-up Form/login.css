@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic, serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background: url(img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 100px 0;
+   
+}
+#content-body{
+    border: 2px solid #661aff;
+    background-color: #fff;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+.content{
+    width: 250px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+#heading{
+    width: 350px;
+    background-color: #661aff;
+    padding: 20px 0px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.form-style{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form{
+    width: 250px;
+    margin: 0;
+    padding: 20px;
+}
+form p{
+    color: #000;
+    font-weight: 300;
+}
+form input{
+    border: 2px solid #661aff;
+    width: inherit;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #4b4260;
+    font-weight: 600;
+}
+form input:hover{
+    border: 3px solid #3b00b3;
+}
+.form-style a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #661aff;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    width: 250px;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+}
+.form-style a:hover{
+     background-color: #3b00b3;
+}
+#acc{
+    text-align: center;
+    font-size: 14px;
+    width: 270px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #661aff;
+    color: white;
+}
+#acc a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 2px 3px;
+}
+#acc a:hover{
+    background-color: #fff;
+    color: rgba(83, 82, 82, 0.87);
+}
+.colors{
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple,.red, .blue, .green, .pink{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.purple{
+    background-color: #661aff;
+}
+.red{
+    background-color: #ff3726;
+}
+.blue{
+    background-color: #1868ff;
+}
+.pink{
+    background-color: #ff3e72;
+}
+.green{
+    background-color: #19e276;
+}

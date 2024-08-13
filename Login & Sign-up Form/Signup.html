@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> Sign-up Page </title>
+        <link rel="stylesheet" href="signup.css">
+    
+    </head>
+    
+    
+    <body>
+        <div id="content-body">
+           <div class="content">
+        
+                <div id="heading">
+                    <h2>SIGN-UP</h2>
+                </div>
+            </div>
+        
+        <div class="form-style">
+            
+            <form method="">
+                <p>Username:</p>
+                <input type="text" id="username">
+                <p>Password:</p>
+                <input type="password" id="password">
+                <p>Email:</p>
+                <input type="email" id="email">
+            </form>
+            
+          <a href="#" id="submit">Submit</a>
+       
+            </div>
+     </div>
+       
+        <div id="acc">
+             <p>you already have an account? <a href="Login.html">Sign-in</a></p>
+           
+            <div class="colors">
+                <div class="purple" onclick="colorChange('#661aff')">
+                </div>
+                <div class="red" onclick="colorChange('#ff3726')">
+                </div>
+                <div class="blue" onclick="colorChange('#1868ff')"></div>
+                <div class="pink" onclick="colorChange('#ff3e72')"></div>
+                <div class="green" onclick="colorChange('#19e276')"></div>
+            </div>
+            
+        </div>      
+    
+    </body>
+    
+    
+    <script>
+         var heading = document.getElementById("heading");
+        
+        const contentbody = 
+        document.getElementById("content-body");
+        
+        const acc = document.getElementById("acc");
+         
+        var username = document.getElementById("username");
+        var password = document.getElementById("password");
+         var email = document.getElementById("email");
+        var submit = document.getElementById("submit");
+        
+      
+       
+           function colorChange(color){
+        
+            heading.style.backgroundColor = color;
+            contentbody.style.border = 2 + "px"+ " " + "solid" +" "+ color;
+            username.style.border = 2 + "px"+ " " + "solid" +" "+ color;
+            password.style.border = 2 + "px"+ " " + "solid" +" "+ color;
+            email.style.border = 2 + "px"+ " " + "solid" +" "+ color;
+            submit.style.backgroundColor = color;
+            acc.style.backgroundColor = color; 
+           
+           }
+
+    
+    </script>
+
+
+</html>
